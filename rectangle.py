@@ -1,0 +1,8 @@
+length_str = input("Enter the length of the rectangle: ")
+length = float(length_str)
+width_str = input("Enter the width of the rectangle: ")
+width = float(width_str)
+area = float(length * width)
+perimeter = 2 * (length + width)
+print("The area of the rectangle is: " + str(area))
+print("The perimeter of the rectangle is: " + str(perimeter))
