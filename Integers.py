@@ -1,0 +1,9 @@
+integer1_str = input("Enter the first integer: ")
+integer2_str = input("Enter the second integer: ")
+integer3_str = input("Enter the third integer: ")
+sum = int(integer1_str) + int(integer2_str) + int(integer3_str)
+product = int(integer1_str) * int(integer2_str) * int(integer3_str)
+average= int(sum) / 3
+print("The sum of the integers is: " + str(sum))
+print("The product of the integers is: " + str(product))
+print("The average of the integers is: " + str(average))
